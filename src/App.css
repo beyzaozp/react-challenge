@@ -1,0 +1,54 @@
+html, body {
+  font-family: 'Open Sans';
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.pagination {
+  margin-left: 0.5rem;
+}
+
+.pagination button {
+  margin-left: 0.5rem;
+}
+
+.results {
+  margin-top: 1rem;
+}
+.page-button{
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: 1px solid #ec2652;
+  background-color: #fff;
+  color: #ec2652;
+  cursor: pointer;
+}
+
+.add-button {
+  height: 3em;
+  width: 12em;
+  background-color: #ec2652;
+  color: #fff;
+  border-color: #ec2652;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+input[type=text] {
+  border: 2px solid #1207c3;
+  border-radius: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+.page-button-1, .page-button-2, .page-button-3, .page-button-4, .page-button-5 {
+  padding: 0.5em 1em;
+  background-color: #ec2652;
+  color: #fff;
+  border-color: #ec2652;
+  border-radius: 0.5em;
+  cursor: pointer;  
+}
